@@ -1,0 +1,60 @@
+@charset "UTF-8";
+.Container
+{
+	width:80%;
+	background-color: red;
+	height:750px;
+	margin-left: 150px;
+	background-image: url("images/backgroundwall.jpg");
+	background-repeat: no-repeat;
+	background-size:cover;
+	background-position: absolute;
+	display: flex;
+	justify-content: center;
+	align-items: center;	
+}
+.second 
+{
+	
+	padding:200px;
+	text-align: center;
+	color:red;
+	background-color: blue;
+	height:100px;
+	width:400px;
+		display: flex;
+	justify-content: center;
+	align-items: center;
+	background-image: url("images/backgroundwall.jpg");
+	background-repeat: no-repeat;
+	background-size:cover;
+	background-position: absolute; 
+	border-radius: 10px;
+	border-style: solid;
+	border-color: white;
+	color:white; 
+	font-family: cursive;
+}
+input[type="submit"]:hover{
+	background-color: green; 
+}
+input[type="text"],input[type="Admin"],input[type="pass"]
+{
+	width:300px;
+	height:40px;
+	border-radius: 6px; 
+}
+input[type="submit"]
+{
+	width:300px;
+	height:40px;
+	border-radius: 6px; 
+}
+a
+{
+	color:white;
+}
+#wo
+{
+	margin-left: 0px; 
+}

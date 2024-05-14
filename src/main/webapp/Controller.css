@@ -1,0 +1,212 @@
+@charset "UTF-8";
+
+.back-image {
+	width: 100%;
+	min-height: 700px;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: absolute;
+	background-image: url("images/Hotelb.jpg");
+}
+
+.navbar-brand {
+	color: white;
+	font-family: 'Dancing Script', cursive;
+}
+
+.nav-item .nav-link {
+	color: white;
+	font-family: 'Dancing Script', cursive;
+	letter-spacing: 2px;
+	margin-right: 30px;
+
+}
+
+.carousel-item h1 {
+	color: white;
+	margin-top: 50px;
+	font-family: 'Dancing Script', cursive;
+}
+
+.carousel-item p {
+	color: white;
+}
+.btn a {
+  color: black;
+  text-decoration: none;
+}
+.carousel-item .btn {
+  background-color:orange;
+  padding: 10px 20px;
+  border: none; 
+  border-radius: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s; 
+  font-family: 'Dancing Script', cursive;
+}
+.btn a:hover {
+  color:white;
+}
+
+
+.card-content {
+	display: flex;
+}
+
+.card-img-left {
+	width: 100px; /* Adjust the width as needed */
+	margin-right: 20px; /* Adjust the spacing between image and text */
+}
+
+.card-text {
+	flex-grow: 1; /* Allow text to take up remaining space */
+}
+
+.card-description {
+	margin-bottom: 0; /* Remove default margin-bottom for p element */
+}
+
+.card-text .btn {
+	margin-top: 10px;
+}
+
+.card-title .btn {
+	margin-top: 10px;
+}
+
+.card-img-left {
+	width: 50%;
+}
+
+h2 {
+	font-family: 'Dancing Script', cursive;
+}
+
+.heading_container h2 {
+	position: relative;
+	margin-top: 60px;
+	font-size: 2.5rem;
+	form-weight: bold;
+}
+
+.heading_container.heading_center {
+	align-items: center;
+	text-align: center;
+}
+
+.navbar-nav {
+	margin: 0 auto;
+	text-align: center;
+}
+
+.navbar-nav .nav-item:hover {
+	background-color: orange;
+	color: white;
+}
+
+.card {
+	margin-right: 20px;
+}
+
+.card-group {
+	margin-top: 20px;
+	border-radius: 20px;
+}
+
+.btn-box a {
+	background-color: #ffbe33;
+	padding: 10px 20px;
+	border-radius: 20px;
+	font-family: 'Dancing Script', cursive;
+	color: black;
+	text-decoration: none;
+}
+
+.btn-box {
+	margin-top: 40px;
+	text-align: center;
+}
+
+.btn-box a:hover {
+  color:white;
+}
+.back-img {
+	width: 100%;
+	min-height: 700px;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: absolute;
+	background-image: url("images/b1.jpg");
+	margin-top: 80px; 
+}
+.table {
+  width: 100%;
+  max-width: 500px;
+  margin: 0 auto;
+  border-collapse: collapse;
+}
+
+tr {
+  border-bottom: 1px solid #ddd; 
+}
+
+td {
+  padding: 10px;
+}
+
+
+label {
+  font-family: 'Dancing Script', cursive;
+  font-size:20px;
+}
+.form-control {
+  width: 100%;
+  padding: 8px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+.btn {
+  padding: 10px 20px;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.text-center .btn
+{
+ background-color:orange;
+   padding: 10px 20px;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  font-family: 'Dancing Script', cursive;
+}
+.text-center .btn:hover {
+  color:white;
+}
+.text-center {
+  text-align: center;
+ 
+    font-weight: bold;
+}
+.footer
+{
+  color:white;
+   margin-top:50px;
+    font-family: 'Dancing Script', cursive;
+}
+.widget ul li a {
+  color: white;
+}
+.widget
+{
+  
+}
+.widget a {
+  color: white;
+
+}
+

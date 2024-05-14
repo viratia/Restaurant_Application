@@ -1,0 +1,45 @@
+@charset "UTF-8";
+ body {
+            font-family: Arial, sans-serif;
+        }
+        form {
+            max-width: 400px;
+            margin: 0 auto;
+            color:white;
+        }
+        input[type="text"], input[type="email"], input[type="number"], select, textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 5px 0;
+            box-sizing: border-box;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+          
+        }
+        input[type="submit"] {
+            background-color: #4CAF50;
+            color: white;
+            padding: 14px 20px;
+            margin: 8px 0;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            
+        }
+        input[type="submit"]:hover {
+            background-color: #45a049;
+        }
+        h2
+        {
+        	text-align:center;
+        }
+      .Ajju
+      {
+      background-color:green;
+      height:735px;
+      background-image: url("images/tableu.jpg");
+      background-size: cover;
+      background-repeat: no-repeat;
+      color:white;
+      background-position: absolute;
+      }
